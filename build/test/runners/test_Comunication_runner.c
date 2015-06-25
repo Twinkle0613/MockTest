@@ -77,13 +77,13 @@ void resetTest(void)
 int main(void)
 {
   UnityBegin("test_Comunication.c");
-  RUN_TEST(test_sendBitHigh_give_xxxx_should_xxx, 52);
-  RUN_TEST(test_sendBitLow_give_xxxx_should_xxx, 61);
-  RUN_TEST(test_writeTurnAroundIO, 71);
-  RUN_TEST(test_readTurnAroundIO, 78);
-  RUN_TEST(test_readBit, 85);
-  RUN_TEST(test_writeData_given_0xCD_and_addr_0xDEAD_and_DATA_0xC0_should_send_0xCDDEADC0, 104);
-  RUN_TEST(test_readData_given_0xAB_and_addr_0xFACE_should_send_0xABFACE_and_turnaround_and_receive_0xBE, 117);
+  RUN_TEST(test_sendBitHigh_give_xxxx_should_xxx, 19);
+  RUN_TEST(test_sendBitLow_give_xxxx_should_xxx, 26);
+  RUN_TEST(test_writeTurnAroundIO, 34);
+  RUN_TEST(test_readTurnAroundIO, 41);
+  RUN_TEST(test_readBit, 48);
+  RUN_TEST(test_writeData_given_0xCD_and_addr_0xDEAD_and_DATA_0xC0_should_send_0xCDDEADC0, 62);
+  RUN_TEST(test_readData_given_0xAB_and_addr_0xFACE_should_send_0xABFACE_and_turnaround_and_receive_0xBE, 79);
 
   CMock_Guts_MemFreeFinal();
   return (UnityEnd());

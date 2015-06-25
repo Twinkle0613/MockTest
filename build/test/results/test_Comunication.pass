@@ -1,0 +1,100 @@
+---
+:source:
+  :path: test
+  :file: test_Comunication.c
+:successes:
+- :test: test_sendBitHigh_give_xxxx_should_xxx
+  :line: 19
+  :message: ''
+- :test: test_sendBitLow_give_xxxx_should_xxx
+  :line: 26
+  :message: ''
+- :test: test_writeTurnAroundIO
+  :line: 34
+  :message: ''
+- :test: test_readTurnAroundIO
+  :line: 41
+  :message: ''
+- :test: test_readBit
+  :line: 48
+  :message: ''
+- :test: test_writeData_given_0xCD_and_addr_0xDEAD_and_DATA_0xC0_should_send_0xCDDEADC0
+  :line: 62
+  :message: ''
+- :test: test_readData_given_0xAB_and_addr_0xFACE_should_send_0xABFACE_and_turnaround_and_receive_0xBE
+  :line: 79
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Send = 0
+- Send = 0
+- Send = 0
+- Send = 0
+- Send = 0
+- Send = 0
+- Send = 1
+- Send = 1
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 1
+- Send = 1
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 1
+- Send = 1
+- Send = 0
+- Send = 1
+- Send = 1
+- Send = 0
+- Send = 0
+- Send = 1
+- Send = 1
+- "-------------"
+- send = 0
+- send = 1
+- send = 1
+- send = 1
+- send = 0
+- send = 0
+- send = 1
+- send = 1
+- send = 0
+- send = 1
+- send = 0
+- send = 1
+- send = 1
+- send = 1
+- send = 1
+- send = 1
+- send = 1
+- send = 1
+- send = 0
+- send = 1
+- send = 0
+- send = 1
+- send = 0
+- send = 1
+- receivebit = 1
+- receivebit = 0
+- receivebit = 0
+- receivebit = 0
+- receivebit = 1
+- receivebit = 0
+- receivebit = 0
+- receivebit = 0
+- ''
