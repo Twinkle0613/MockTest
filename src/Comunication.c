@@ -197,7 +197,8 @@ uint8_t readData(uint8_t cmd, uint16_t address){
 			
 			bit = readBit(IO_PIN);
 			printf("receivebit = %d\n",bit);
-			receive = receive | (bit>>i); 
+			receive = receive | (bit<<i); 
+			printf("receive = %d\n", receive);
 			
 			}
 			return receive;

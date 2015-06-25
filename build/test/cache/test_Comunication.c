@@ -137,4 +137,6 @@ void test_readData_given_0xAB_and_addr_0xFACE_should_send_0xABFACE_and_turnaroun
 
  receive = readData(0xAB,0xFACE);
 
+ UnityAssertEqualNumber((_U_SINT)((0x11)), (_U_SINT)((receive)), (((void *)0)), (_U_UINT)89, UNITY_DISPLAY_STYLE_INT);
+
 }

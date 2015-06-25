@@ -86,6 +86,8 @@ void test_readData_given_0xAB_and_addr_0xFACE_should_send_0xABFACE_and_turnaroun
 	RTA_TO;
 	readBit_Expect(0x11);
 	receive = readData(0xAB,0xFACE);
-}
+	TEST_ASSERT_EQUAL(0x11,receive);
+
+	}
 
 
